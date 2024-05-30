@@ -12,4 +12,6 @@ function asNegative(n) {
   }
   }
 
-  asNegative(4)
+console.log(asNegative(4), "expected: -4")
+console.log(asNegative(-21), "expected: -21")
+console.log(asNegative(0), "expected: -0")
